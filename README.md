@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RpgCombatKata
 
 **TODO: Add description**
@@ -18,3 +19,6 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
           [applications: [:rpg_combat_kata]]
         end
 
+=======
+# rpg_combat_kata
+>>>>>>> 43e11375f556a02819e55138fa6e8761f83ab66d
