@@ -14,12 +14,8 @@ defmodule RpgCombatKataTest do
   end
 
   test "when a character is killed" do
-    damager = %Player{}
-    damaged = %Player{}
-
-    IO.puts "#{damager.id} is damaging #{damaged.id}"
-
-    player = deal_damage(damager.id, damaged, 1200)
+    damager = %CombatKata.Player{}
+    player = deal_damage(damager.id, %CombatKata.Player{}, 1200)
     assert player == %Player{ health: 0, status: :dead}   
   end
 
