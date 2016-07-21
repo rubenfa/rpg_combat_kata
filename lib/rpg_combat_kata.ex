@@ -1,2 +1,0 @@
-defmodule RpgCombatKata do
-end
